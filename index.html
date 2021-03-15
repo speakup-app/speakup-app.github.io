@@ -1,7 +1,82 @@
 <!DOCTYPE html>
-<html>
-<body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
-</body>
+<html lang="en" prefix="og: http://ogp.me/ns#">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Have you ever attended a talk in which there is a Q&amp;A session but either no one dares to participate or several participants ask irrelevant questions? SpeakUp addresses this issue by providing a fun way for the audience to share and rate each other's questions. With SpeakUp, speakers can easily see the ratings of the audience's questions and address the most relevant ones.">
+    <meta name="author" content="Seance Association">
+    <meta name="keywords" content="mobile,app,speakup,speak up,ios,apple,google,android,chat,location-based,rating,privacy,education,classroom,teacher,lecture,lecturer,audience,questions,comments,communication,participation,video,speakers,sten govaerts,adrian holzer,andrii vozniuk,denis gillet,benoit garbinato,epfl,unil,lausanne">
+
+    <meta property="og:locale" content="en_US">
+    <meta property="og:site_name" content="SpeakUp">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="http://speakup.info/">
+    <meta property="og:title" content="SpeakUp">
+    <meta property="og:description" content="Have you ever attended a talk in which there is a Q&amp;A session but either no one dares to participate or several participants ask irrelevant questions? SpeakUp addresses this issue by providing a fun way for the audience to share and rate each other's questions. With SpeakUp, speakers can easily see the ratings of the audience's questions and address the most relevant ones.">
+    <meta property="og:image" content="http://speakup.info/img/home/screenshot-mobile.png">
+    <meta property="og:image:width" content="648">
+    <meta property="og:image:height" content="1200">
+
+    <link rel="shortcut icon" href="http://speakup.info/img/favicon.ico">
+    <link rel="image_src" href="http://speakup.info/img/home/screenshot-mobile.png">
+
+    <title>SpeakUp</title>
+
+    <link href="/css/normalize.min.css" rel="stylesheet">
+    <link href="/css/speakup.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <header id="top" class="header highlight">
+      <div class="container container--header">
+        <a class="header__logo" href="/">
+          <img src="/img/header/speakup-hand.svg" alt="SpeakUp"/>
+        </a>
+        <a class="header__web-app" href="https://web.speakup.info/" target="_blank">
+          <span>web app</span>
+        </a>
+        <h1 id="title" class="header__title">SpeakUp</h1>
+      </div>
+    </header>
+
+    <div id="content" class="content"></div>
+
+    <footer class="footer muted">
+      <div class="container container--footer">
+        <div>
+          <a class="footer__link" href="https://www.epfl.ch/" target="_blank">
+            <img class="footer__logo" src="/img/footer/epfl2.svg" alt="École Polytechnique Fédérale de Lausanne"/>
+          </a>
+          <a class="footer__link" href="https://www.unil.ch/" target="_blank">
+            <img class="footer__logo" src="/img/footer/unil.svg" alt="Université de Lausanne"/>
+          </a>
+           <a class="footer__link" href="https://www.unine.ch/" target="_blank">
+            <img class="footer__logo" src="/img/footer/unine.svg" alt="Université de Neuchâtel"/>
+          </a>
+        </div>
+        <ul class="footer__pages">
+          <li class="footer__page"><a class="footer__page-link" href="/">Home</a></li>
+          <li class="footer__page"><a class="footer__page-link" href="/features">Features</a></li>
+          <li class="footer__page"><a class="footer__page-link" href="/publications">Publications</a></li>
+          <li class="footer__page"><a class="footer__page-link" href="/team">Team</a></li>
+          <li class="footer__page"><a class="footer__page-link" href="/terms">Terms</a></li>
+          <li class="footer__page"><a class="footer__page-link" href="mailto:seanceassociation@gmail.com?subject=SpeakUp">Contact</a></li>
+        </ul>
+        <p class="footer__copyright">&copy; 2020 Incubated in and supported by EPFL, Unil, and UniNE.</p>
+      </div>
+    </footer>
+
+    <script src="/js/page.min.js"></script>
+    <script src="/js/ajax.min.js"></script>
+    <script src="/js/speakup.js"></script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-45845251-1', 'auto');
+      ga('set', 'anonymizeIp', true);
+      ga('send', 'pageview');
+    </script>
+  </body>
 </html>
