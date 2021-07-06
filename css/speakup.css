@@ -175,7 +175,7 @@ a:hover {
   margin: 0 auto 1rem;
   font-size: 1rem;
   font-weight: normal;
-  color: rgb(109, 110, 121);
+  color: rgb(89, 112, 126);
 }
 @media (min-width: 632px) {
   .intro__newversion_message {
