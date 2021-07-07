@@ -464,3 +464,14 @@ a.footer__link:hover {
 .footer__copyright {
   margin: 0;
 }
+
+.alertbanner {
+  padding: 20px;
+  background-color: #f48b36;
+  color: rgb(0, 0, 0);
+}
+
+#warningimg {
+  float: left;    
+  margin: 12px 40px 0px 160px;    
+}
