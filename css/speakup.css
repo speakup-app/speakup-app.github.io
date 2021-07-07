@@ -466,6 +466,7 @@ a.footer__link:hover {
 }
 
 .alertbanner {
+  border-radius: 25px;
   padding: 20px;
   background-color: #f48b36;
   color: rgb(0, 0, 0);
